@@ -272,7 +272,7 @@
 }
 
 .card__icon-button:focus-visible {
-  border: solid 2px var(--accent-color, #000);
+  border-color: var(--accent-color, #000);
 }
 
 .card__like-button {
