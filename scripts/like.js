@@ -39,23 +39,3 @@ function setButtonText(heart, button) {
     );
   }
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-  const modal = document.getElementById('modal');
-  const saveButton = document.querySelector('.footer__button');
-  const okButton = document.querySelector('.dialog__button');
-
-  if (saveButton) {
-    saveButton.addEventListener('click', function(e) {
-      e.preventDefault();
-      modal.showModal();
-    });
-  }
-
-  if (okButton) {
-    okButton.addEventListener('click', function(e) {
-      e.preventDefault();
-      modal.close();
-    });
-  }
-});
