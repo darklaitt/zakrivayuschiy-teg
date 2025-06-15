@@ -288,18 +288,14 @@
       </article>
     </main>
     <footer class="footer">
-      <button 
-        type="button"
-        onclick="window['modal'].showModal();"
-        aria-controls="modal"
-        class="footer__button button">
-        <svg class="footer__image" viewBox="0 0 28 28">
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
+      <button type="button" onclick="modal.showModal()" class="footer__button button" aria-controls="modal">
+      <svg class="footer__image" viewBox="0 0 28 28">
+        <use href="./svg/floppy.svg#floppy"></use>
+      </svg>
+      <span class="button__text">Сохранить на память</span>
+    </button>
     </footer>
-    <dialog id="modal" class="dialog">
+    <dialog class="dialog" id="modal">
       <div class="dialog__content">
         <svg class="dialog__image" viewBox="0 0 28 28">
           <use href="./svg/floppy.svg#floppy"></use>
