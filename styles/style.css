@@ -20,6 +20,8 @@
   background-image: var(--bg-image);
   background-attachment: fixed;
   background-size: cover;
+
+  font-variation-settings: "wght" var(--card-text-weight, 400);
 }
 
 .header {
@@ -209,7 +211,7 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  gap: 12px;  
+  gap: 12px;
 }
 
 .button {
@@ -265,11 +267,11 @@
   cursor: pointer;
 }
 
-.card__icon:focus {
+.card__icon-button:focus {
   outline: none;
 }
 
-.card__icon:focus-visible {
+.card__icon-button:focus-visible {
   border: solid 2px var(--accent-color, #000);
 }
 
